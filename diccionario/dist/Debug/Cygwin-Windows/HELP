@@ -1,0 +1,54 @@
+********************* AYUDA DEL DICCIONARIO DE DATOS *********************
+
+NOMBRE:
+    dic.exe   Diccionario de Datos
+
+SINTAXYS:
+    dic.exe <opncion1> parametro <opcion2> parametro ...
+
+DESCRIPCION:
+    Crea y  manipula  archivos que  guardaran  un diccionario
+    de datos, agregando, eliminando, modificando y consultado
+    entidades y atributos.
+
+    -ae
+        (Alta Entidad) <[nombre_de_la_entidad>
+            Da de alta una entidad en el diccionario especificado por -d.
+            El parametro es el nombre de la entidad.
+    -be
+        (Baja Entidad) <nombre_de_la_entidad>
+            Da de baja una entidad en el diccionario especificado por -d.
+            El parametro es el nombre de la entidad.
+    -me  [-n]
+        (Modifica Entidad) <nombre_de_la_entidad> [-n]
+            Renombra una entidad en el diccionario especificado por -d.
+            y el nombre especificado por -n.
+            El parametro es el nombre de la entidad.
+    -c
+        (Consulta) <nombre_del_diccionario>
+            Hace  una  consulta  en  el  diccionario  y muestra todos las
+            entidades con sus atributos.
+            El parametro es el nombre del diccionario.
+    -ce
+        (Consulta Entidad) <nombre_de_la_entidad>
+            Hace una consulta de la entidad en el diccionario especificado
+            por -d y muestra todos sus atributos.
+            El parametro es el nombre de la entidad.
+    -d
+        (Archivo del diccionarcio) <nombre_del_diccionario>
+            Especifica el diccionario a abrir.
+            El parametro es el nombre del diccionario.
+    -new
+        (Nuevo Diccionario) <nombre_del_diccionario>
+            Crea un nuevo archivo de diccionario.
+            El parametro es el nombre del diccionario.
+    -h, -help
+        (Ayuda)
+            Muestra este menu de ayuda.
+
+PROGRAMADO POR:.
+    Alfredo Orozco de la Paz.
+    Universidad Autonoma de San Luis Potosi UASLP.
+    Area de Computacion e Informatica.
+    Materia: Estructuras de Archivos.
+    Semestre 2013/2014-II.

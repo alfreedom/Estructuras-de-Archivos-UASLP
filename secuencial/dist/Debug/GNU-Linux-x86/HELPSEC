@@ -1,0 +1,67 @@
+********************* AYUDA DE LA ORGANIZACIÖN SECUENCIAL *********************
+
+NOMBRE:
+    secuencial (linux)   Organización Secuencial
+
+SINTAXYS:
+    secuencial <opncion1> parametro <opcion2> parametro ...
+
+DESCRIPCION:
+    Crea y  manipula  registros de un diccionario de manera secuencial
+    agregando, eliminando, modificando y consultado registros
+
+    -a/-A
+        (Alta) <nombre_de_la_tabla>
+            Da de alta un nuevo registro en el diccionario especificado por -d.
+            El parametro es el nombre de la tabla.
+
+    -b/-B
+        (Baja) <nombre_de_la_tabla>
+            Da de baja una entidad en el diccionario especificado por -d.
+            El parametro es el nombre de la entidad.
+
+    -c/-C
+        (Consulta) <nombre_de_la_tabla>
+            Hace  una  consulta  en  el  diccionario  y muestra todos los
+            registros de la tabla en el diccionario especificado por -d.
+            El parametro es el nombre de la tabla (opcional).
+
+    -d
+        (Archivo del diccionarcio) <nombre_del_diccionario>
+            Especifica el diccionario a usar.
+            El parametro es el nombre del diccionario.
+
+    -h/-H/-help/help/?
+        (Ayuda)
+            Muestra este menu de ayuda.
+
+    -i/-I
+        (Importa Diccionario) <diccionario_fuente> <diccionario_destino>
+            Importa un diccionario de datos a uno de tipo secuencial.
+            El parametro es el nombre del diccionario a importar.
+            El nombre del diccionario destino es opcional.
+
+    -m/-M
+        (Modifica) <nombre_de_la_tabla> <key>
+            Modifica un registro de una tabla con la clave especificado por <key>
+            en el diccionario especificado por -d.
+            El parametro es el nombre de la entidad y la clave del registro.
+
+
+MODO DE USO:
+    ALTA:     -d dic.sec -a TABLA
+    BAJA:     -d dic.sec -b TABLA CLAVE
+    CONSULTA: -d dic.sec -c (consulta todas las tablas)
+    CONSULTA: -d dic.sec -c TABLA (consulta una tabla)
+    MODIFICA: -d dic.sec -m TABLA LLAVE
+
+PROGRAMADO POR:
+
+    Alfredo Orozco de la Paz.
+    Universidad Autonoma de San Luis Potosi UASLP.
+    Area de Computacion e Informatica.
+    Materia: Estructuras de Archivos.
+    Profesor: Omar Adalid.
+    Semestre 2013/2014-II.
+
+
